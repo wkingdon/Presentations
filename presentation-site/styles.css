@@ -1,0 +1,14 @@
+/* css styles */
+
+/* from https://github.com/quarto-dev/quarto-web/blob/2123cbb6a2fde11eb90678e70fcbd03f91ccbf94/styles.css#L128 */
+.slide-deck {
+    border: 3px solid #dee2e6;
+    width: 100%;
+    height: 475px;
+  }
+  
+@media only screen and (max-width: 600px) {
+.slide-deck {
+    height: 400px;
+}
+}
