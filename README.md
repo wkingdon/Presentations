@@ -1,2 +1,2 @@
-# Presentations
-Repository to hold presentations I will give and host them on github pages
+# Personal Site
+Git repo to hold the files for my personal site
