@@ -7,18 +7,46 @@
     "text": "About this site"
   },
   {
-    "objectID": "Presentations/07-23-internPresentation.html#getting-up",
-    "href": "Presentations/07-23-internPresentation.html#getting-up",
-    "title": "Habits",
-    "section": "Getting up",
-    "text": "Getting up\n\nTurn off alarm\nGet out of bed"
+    "objectID": "Presentations/07-23-internPresentation.html#the-microbit",
+    "href": "Presentations/07-23-internPresentation.html#the-microbit",
+    "title": "C10: Developing innovative learning materials",
+    "section": "The Microbit",
+    "text": "The Microbit\n\n\nThis is the BBC Microbit, a single board computer designed to teach the basics of programming by making learning more engaging and accessable with real world results. As you can see it as a full set of features."
   },
   {
-    "objectID": "Presentations/07-23-internPresentation.html#breakfast",
-    "href": "Presentations/07-23-internPresentation.html#breakfast",
-    "title": "Habits",
-    "section": "Breakfast",
-    "text": "Breakfast\n\nEat eggs\nDrink coffee"
+    "objectID": "Presentations/07-23-internPresentation.html#isnt-that-for-children",
+    "href": "Presentations/07-23-internPresentation.html#isnt-that-for-children",
+    "title": "C10: Developing innovative learning materials",
+    "section": "Isn’t that for children?",
+    "text": "Isn’t that for children?\n\n\nWell, yes.\n\nBut…\n\n\n\n\nMost of the information for the Microbit is aimed at people at the very beginning and children\nAs such much of the code is very simple and uses codeblocks\nOnly a teaching tool\nNot sufficient for computer science degrees"
+  },
+  {
+    "objectID": "Presentations/07-23-internPresentation.html#codal",
+    "href": "Presentations/07-23-internPresentation.html#codal",
+    "title": "C10: Developing innovative learning materials",
+    "section": "CODAL",
+    "text": "CODAL\nComponent Oriented Device Abstraction Layer\n\n\nOpen source project from Lancaster University that supports many SBC\nSystem that supports Microsoft makecode codeblocks\nWritten using c\nWon’t compile on the lab machines …\n\n\n\nImportant that this is on c as this module must support systems programming/ low level programming as it is a foundation for many different things in SoC\nWont compile on lab machine as the libraries needed to compile for the microbit as a target are not available on arch/centos"
+  },
+  {
+    "objectID": "Presentations/07-23-internPresentation.html#this-is-a-common-problem",
+    "href": "Presentations/07-23-internPresentation.html#this-is-a-common-problem",
+    "title": "C10: Developing innovative learning materials",
+    "section": "This is a common problem",
+    "text": "This is a common problem\n\nWho here has struggled during installation and setup for a new programming language?\n\n\n\nThis is almost always a pain in the ass"
+  },
+  {
+    "objectID": "Presentations/07-23-internPresentation.html#the-solution",
+    "href": "Presentations/07-23-internPresentation.html#the-solution",
+    "title": "C10: Developing innovative learning materials",
+    "section": "The solution",
+    "text": "The solution\n\n\nGithub Codespaces\nCloud based development environment based on VSCode.\n\nThis is far more accessible and portable than any other solution I have seen\n\nUses devcontainer system from vscode to allow for an adaptable programming environment.\nThis is a configuration in code system\n\nTools needed to run are included in repo\n\nSystems similar to this could be useful many different programming workflows\n\n\n\ncheck if they know what git(hub) is devcontainers provode a layer between the host system and the applications that can interpret code only within vscode The microsoft devcontainer team creates and updates devcontainers for any popular languages. Most important outcome of all of this is the flexibility it provides"
+  },
+  {
+    "objectID": "Presentations/07-23-internPresentation.html#key-takeaways",
+    "href": "Presentations/07-23-internPresentation.html#key-takeaways",
+    "title": "C10: Developing innovative learning materials",
+    "section": "Key Takeaways",
+    "text": "Key Takeaways\n\n\nThe Microbit allows for forward facing, engaging and innovative teaching.\nGithub Codespaces\n\nAllows for innovative teaching modes\nCreates projects that are highly portable\n\n\n\n\nGithub Codespaces can be used to create an accessible and portable teaching environment allowing teaching to focus on key concepts and understanding rather than troubleshooting"
   },
   {
     "objectID": "index.html",
@@ -26,5 +54,12 @@
     "title": "William Kingdon",
     "section": "",
     "text": "2nd year computer scientist at the University of Leeds"
+  },
+  {
+    "objectID": "presentations.html",
+    "href": "presentations.html",
+    "title": "Presentations",
+    "section": "",
+    "text": "Present"
   }
 ]

@@ -10,9 +10,9 @@
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.3.433">
 
-  <meta name="author" content="John Doe">
-  <meta name="dcterms.date" content="2005-03-22">
-  <title>wkingdon - Habits</title>
+  <meta name="author" content="William Kingdon">
+  <meta name="dcterms.date" content="2023-07-12">
+  <title>wkingdon - C10: Developing innovative learning materials</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -326,31 +326,164 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Habits</h1>
+  <h1 class="title">C10: Developing innovative learning materials</h1>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
 <div class="quarto-title-author-name">
-John Doe 
+William Kingdon 
 </div>
 </div>
 </div>
 
-  <p class="date">2005-03-22</p>
+  <p class="date">2023-07-12</p>
 </section>
-<section id="getting-up" class="slide level2">
-<h2>Getting up</h2>
-<ul>
-<li>Turn off alarm</li>
-<li>Get out of bed</li>
-</ul>
+<section id="the-microbit" class="slide level2 center">
+<h2>The Microbit</h2>
+
+<img data-src="../Presentations/img/microbit.png" class="r-stretch"><aside class="notes">
+<p>This is the BBC Microbit, a single board computer designed to teach the basics of programming by making learning more engaging and accessable with real world results. As you can see it as a full set of features.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
-<section id="breakfast" class="slide level2">
-<h2>Breakfast</h2>
+<section id="isnt-that-for-children" class="slide level2">
+<h2>Isn’t that for children?</h2>
+<div class="fragment">
 <ul>
-<li>Eat eggs</li>
-<li>Drink coffee</li>
+<li>Well, yes.</li>
+<li><img data-src="../Presentations/img/codeblocks.png"></li>
+<li>But…</li>
 </ul>
+</div>
+<aside class="notes">
+<ul>
+<li>Most of the information for the Microbit is aimed at people at the very beginning and children</li>
+<li>As such much of the code is very simple and uses codeblocks</li>
+<li>Only a teaching tool</li>
+<li>Not sufficient for computer science degrees</li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="codal" class="slide level2">
+<h2>CODAL</h2>
+<p>Component Oriented Device Abstraction Layer</p>
+<div>
+<ul>
+<li class="fragment">Open source project from Lancaster University that supports many SBC</li>
+<li class="fragment">System that supports Microsoft makecode codeblocks</li>
+<li class="fragment">Written using c</li>
+<li class="fragment">Won’t compile on the lab machines …</li>
+</ul>
+</div>
+<aside class="notes">
+<p>Important that this is on c as this module must support systems programming/ low level programming as it is a foundation for many different things in SoC</p>
+<p>Wont compile on lab machine as the libraries needed to compile for the microbit as a target are not available on arch/centos</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="this-is-a-common-problem" class="slide level2">
+<h2>This is a common problem</h2>
+<ul>
+<li>Who here has struggled during installation and setup for a new programming language?</li>
+</ul>
+<div>
+<ul>
+<li class="fragment">This is almost always a pain in the ass</li>
+</ul>
+</div>
+</section>
+<section id="the-solution" class="slide level2">
+<h2>The solution</h2>
+<div>
+<ul>
+<li class="fragment">Github Codespaces</li>
+<li class="fragment">Cloud based development environment based on VSCode.
+<ul>
+<li class="fragment">This is far more accessible and portable than any other solution I have seen</li>
+</ul></li>
+<li class="fragment">Uses devcontainer system from vscode to allow for an adaptable programming environment.</li>
+<li class="fragment">This is a configuration in code system
+<ul>
+<li class="fragment">Tools needed to run are included in repo</li>
+</ul></li>
+<li class="fragment">Systems similar to this could be useful many different programming workflows</li>
+</ul>
+</div>
+<aside class="notes">
+<p>check if they know what git(hub) is devcontainers provode a layer between the host system and the applications that can interpret code only within vscode The microsoft devcontainer team creates and updates devcontainers for any popular languages. Most important outcome of all of this is the flexibility it provides</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section>
+<section id="lets-see-this-in-action" class="title-slide slide level1 center">
+<h1>Lets see this in action</h1>
+
+</section>
+<section id="key-takeaways" class="slide level2">
+<h2>Key Takeaways</h2>
+<div>
+<ul>
+<li class="fragment">The Microbit allows for forward facing, engaging and innovative teaching.</li>
+<li class="fragment">Github Codespaces
+<ul>
+<li class="fragment">Allows for innovative teaching modes</li>
+<li class="fragment">Creates projects that are highly portable</li>
+</ul></li>
+</ul>
+</div>
+<aside class="notes">
+<p>Github Codespaces can be used to create an accessible and portable teaching environment allowing teaching to focus on key concepts and understanding rather than troubleshooting</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section></section>
+<section id="any-questions" class="title-slide slide level1 center">
+<h1>Any questions?</h1>
 
 <div class="footer footer-default">
 
