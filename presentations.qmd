@@ -2,6 +2,8 @@
 title: "Presentations"
 ---
 
+[Present](Presentations/07-23-internPresentation.html)
+
 ``` {=html}
 <iframe class="slide-deck" src="Presentations/07-23-internPresentation.html"></iframe>
 ```

@@ -1,16 +1,86 @@
 ---
-title: "Habits"
-author: John Doe
-date: March 22, 2005
-format: revealjs
+title: "C10: Developing innovative learning materials"
+author: William Kingdon
+date: July 12, 2023
+format: 
+    revealjs:
+        theme: solarized
 ---
 
-## Getting up
+## The Microbit {.center}
+![](/Presentations/img/microbit.png)
 
-- Turn off alarm
-- Get out of bed
+:::{.notes}
+This is the BBC Microbit, a single board computer designed to teach the basics of programming by making learning more engaging and accessable with real world results. 
+As you can see it as a full set of features.
+:::
 
-## Breakfast
+## Isn't that for children?
+:::{.fragment}
+ - Well, yes.
+ - ![](/Presentations/img/codeblocks.png)
+ - But...
+:::
 
-- Eat eggs
-- Drink coffee
+:::{.notes}
+ - Most of the information for the Microbit is aimed at people at the very beginning and children 
+ - As such much of the code is very simple and uses codeblocks 
+ - Only a teaching tool
+ - Not sufficient for computer science degrees
+:::
+## CODAL
+Component Oriented Device Abstraction Layer
+
+:::{.incremental}
+ - Open source project from Lancaster University that supports many SBC
+ - System that supports Microsoft makecode codeblocks
+ - Written using c
+ - Won't compile on the lab machines ...
+:::
+
+:::{.notes}
+Important that this is  on c as this module must support systems programming/ low level programming as it is a foundation for many different things in SoC
+
+Wont compile on lab machine as the libraries needed to compile for the microbit as a target are not available on arch/centos
+:::
+
+
+## This is a common problem
+* Who here has struggled during installation and setup for a new programming language?
+
+:::{.incremental}
+ - This is almost always a pain in the ass
+:::
+## The solution 
+:::{.incremental}
+ - Github Codespaces
+ - Cloud based development environment based on VSCode.
+    - This is far more accessible and portable than any other solution I have seen
+ - Uses devcontainer system from vscode to allow for an adaptable programming environment.
+ - This is a configuration in code system
+    - Tools needed to run are included in repo
+ - Systems similar to this could be useful many different programming workflows
+:::
+
+::: {.notes}
+check if they know what git(hub) is
+devcontainers provode a layer between the host system and the applications that can interpret code only within vscode
+The microsoft devcontainer team creates and updates devcontainers for any popular languages.
+Most important outcome of all of this is the flexibility it provides
+:::
+
+# Lets see this in action
+
+## Key Takeaways
+:::{.incremental}
+ - The Microbit allows for forward facing, engaging and innovative teaching.
+ - Github Codespaces
+    - Allows for innovative teaching modes
+    - Creates projects that are highly portable
+:::
+
+::: {.notes}
+Github Codespaces can be used to create an accessible and portable teaching environment allowing teaching to focus on key concepts and understanding rather than troubleshooting 
+:::
+
+# Any questions?
